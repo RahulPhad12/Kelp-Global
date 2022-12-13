@@ -1,0 +1,61 @@
+body {
+  color: #484848;
+  font-family: "Lato", sans-serif;
+  padding: 1em;
+  line-height: 1.5;
+}
+
+.input{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.create{
+  width: 33.3%;
+  float: left;
+}
+
+.deposit{
+  width: 33.3%;
+  display: inline-block;
+}
+
+.withdraw{
+  width: 33.3%;
+  float: right;
+}
+
+#acctBalance{
+  padding: 30px 0;
+  text-align: center;
+}
+
+ input,
+button {
+  font-size: 0.85em;
+  padding: 0.65em 1em;
+  border-radius: 0.3em;
+  outline: 0;
+}
+input {
+  border: 2px solid #dcdcdc;
+  margin-right: 1em;
+}
+
+button {
+  color: white;
+  background: blue;
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+label {
+  font-size: 2em;
+}
+
+#btnDeposit,
+#btnWithdraw {
+  width: 8em;
+} 

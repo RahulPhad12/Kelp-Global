@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+  </head>
+
+  <body>
+    <div id="inputs">
+      <div class="create">
+        <h2>Create Account</h2>
+        <input type="text" required />
+        <button>Create</button>
+      </div>
+      <div class="deposit">
+        <h2>Deposit Amount</h2>
+        <input type="text" id="userDeposit" required />
+        <button id="btnDeposit">Deposit</button>
+      </div>
+
+      <div class="withdraw">
+        <h2>Withdraw Amount</h2>
+        <input type="text" id="userWithdraw" required />
+        <button id="btnWithdraw">Withdraw</button>
+      </div>
+    </div>
+    <div id="acctBalance">
+      <span class="wrap"></span>
+      <h2>Your Balance</h2>
+      <label id="acctBalanceLbl"></label>
+      <p>You can deposit and withdraw amount</p>
+    </div>
+
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
